@@ -1,0 +1,1 @@
+function a(n){return n.toLowerCase().trim().replace(/^www\./,"")}function o(n){const t=a(n);return/^[a-z0-9]([a-z0-9\-]{0,61}[a-z0-9])?(\.[a-z0-9]([a-z0-9\-]{0,61}[a-z0-9])?)*\.[a-z]{2,}$/.test(t)}function s(n,t){const e=a(n),r=a(t);return e===r||e.endsWith("."+r)}export{s as h,o as i,a as n};
